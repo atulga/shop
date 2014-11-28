@@ -3,15 +3,67 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <style type="text/css" media="all">
 img{
-    border: 5px solid #eee;
+    border: 5px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
 }
+
+.product-image, .product-overview{
+    display: inline-block;
+    vertical-align: top;
+}
+.product-image{ width: 480px; }
+.product-image img{ width: 440px; }
+.product-overview{
+    width: 240px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    border: 7px solid #eee;
+    min-height: 300px;
+    font-size: 0.9em;
+}
+.product-details{
+    margin-top: 20px;
+}
+
+h5{
+    font-size: 1.4em;
+    margin: 3px 10px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: right;
+}
+
+
 </style>
 </head>
-<body style="width: 500px; margin: 20px auto; box-shadow: 0 0 20px #ccc; padding: 20px;">
+<body style="width: 800px; margin: 20px auto; box-shadow: 0 0 20px #ccc; padding: 20px;">
 
-<h1>Алаг мэлхийн шагай</h1>
 
-<img src="2_shagai.jpg" width="400px"/>
+<div class="product-image">
+    <img src="2_shagai.jpg"/>
+</div>
+<div class="product-overview">
+    <h5>Алаг мэлхийн шагай</h5>
+    <div class="price">20,000₮</div><br/>
+
+    <b>Maecenas ornare</b>
+    <ul>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Consectetur adipiscing elit</li>
+        <li>Integer vestibulum </li>
+        <li>Vestibulum porta</li>
+    </ul>
+    Suspendisse fermentum <b>eros</b> a libero tristique,
+</div>
+<div class="product-details">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum vestibulum porta. Maecenas ornare libero a orci ultrices auctor. Suspendisse fermentum eros a libero tristique, sit amet scelerisque sapien venenatis. Etiam nec diam maximus, maximus ex nec, interdum felis. Nullam accumsan consequat turpis id ornare. Aenean consectetur sapien scelerisque, faucibus ante sit amet, vulputate orci. Nulla ac tempor mauris, nec malesuada turpis. In maximus vitae justo nec gravida. Morbi est turpis, condimentum vel libero varius, sollicitudin consectetur mi. Etiam dignissim elit eu elit ornare, in auctor lacus fermentum. Pellentesque efficitur posuere dictum.
+</div>
+
 
 </body>
 </html>
