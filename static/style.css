@@ -1,65 +1,82 @@
-div {
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
-vertical-align: baseline;
-background: transparent;
+@font-face{
+	font-family: 'WebFont';
+	src: url('/static/images/OpenSans-CondLight.ttf');
 }
-.menu {
-margin:0 auto;
+body{
+	font-family: 'WebFont';
+	background-image: url("/static/images/concrete_wall_bg.png");
+	color: #415e8a;
 }
-.container {
-padding: 0 25px;
-position: relative;
-margin: 0 auto;
-width: 1000px;
+.container{
+	margin: 0 auto;
+	width: 800px;
 }
-.tl {
-float: left;
-margin: 15px 28px 0 0;
-position: relative;
-transition: all 0.2s ease-out;
--webkit-transition: all 0.2s ease-out;
-width: 210px;
+.clear{
+	clear: both; zoom: 1;
 }
-.clear {
-	clear: both;
+.products{
+	width: 800px;
+	margin-bottom: 30px;
 }
-.footer {
-border-top: #e2e2e2 solid 1px;
-margin: 28px -10px 0 -10px;
-padding: 0;
-font-size: 13px;
-line-height: 18px;
-clear: left;
-display: block;
+.product-list{
+	list-style: none;
+	text-align: center;
 }
-.footer-inner {
-width: 980px;
-padding: 28px 10px 0;
-text-align: left;
-margin: 0 auto;
+.product{
+	float: left;
+	margin: 25px 0 0 0;
+	position: relative;
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	width: 210px;
 }
-.footer-content {
-border-bottom: #E2E2E2 solid 1px;
-padding-bottom: 14px;
+.product-name{
+	font-family: 'WebFont';
+	line-height: 50px;
+	font-size: 1em;
+	color: #415e8a;
 }
-.clear {
-clear: both;
+.product-image{
+	background-color: #FFFFFF;
+    border: 0;
+    width: 205px;
+    height: 205px;
 }
-.clearfix {
-zoom: 1;
+.product-price{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #415e8a;
 }
-.footer-column.wide {
-width: 40%;
+.product-price-sale{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #415e8a;
 }
-.footer-column {
-float: left;
-width: 20%;
+.header{
+	font-family: 'WebFont';
+	color: #415e8a;
+	text-align: center;
+	border-bottom: 3px solid #415e8a;
 }
-img {
-    border: 5px solid #eee;
-    width: 200px;
-    height: 200px;
+.title{
+	color: #415e8a;
+	text-transform: uppercase;
+	margin: 40px auto;
+}
+.footer{
+	font-family: WebFont;
+	color: #415e8a;
+	margin-top: 50px;
+	text-align: center;
+	border-top: 1px solid #415e8a;
+}
+.copyright{
+	font-family: WebFont;
+	color: #415e8a;
+	position: fixed;
+	bottom: 0px;
+	border-top: 1px solid #415e8a;
+	width: 100%;
+	text-align: center;
+	font-size: 0.9em;
 }
