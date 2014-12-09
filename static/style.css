@@ -1,10 +1,10 @@
 @font-face{
 	font-family: 'WebFont';
-	src: url('/static/OpenSans-CondLight.ttf');
+	src: url('OpenSans-CondLight.ttf');
 }
 body{
 	font-family: 'WebFont';
-	background-image: url("/static/images/concrete_wall_bg.png");
+	background-image: url("images/concrete_wall_bg.png");
 	color: #415e8a;
 }
 .container{

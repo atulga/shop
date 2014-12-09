@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+/* avoid to be called alone */
+if (!isset($content)) { exit(1); }
+?><!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -13,25 +16,7 @@
 		<div class="header">
 			<h2 class="title">Гар хийцийн бүтээлүүд</h2>
 		</div>
-        <div class="products">
-            <ul class="product-list">
-                <li class="product">
-                    <img class="product-image" src="static/images/burhuul.png">
-					<span class="product-name">Гэрлийн бүрхүүл</span><br />
-					<span class="product-price">15000₮</span>
-                </li>
-                <li class="product">
-                    <img class="product-image" src="static/images/2_shagai.jpg">
-					<span class="product-name">Алаг мэлхийний шагай</span><br />
-					<span class="product-price">20000₮</span>
-                </li>
-                <li class="product">
-                    <img class="product-image" src="">
-					<span class="product-name">Ажлийн ширээ</span><br />
-					<span class="product-price">50000₮</span>
-                </li>
-            </ul>
-        </div>
+        <?= $content ?>
 		<!--about-->
 		<div class="clear"></div>
 		<div class="footer">
