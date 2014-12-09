@@ -1,116 +1,118 @@
 @font-face{
-	font-family: 'WebFont';
-	src: url('OpenSans-CondLight.ttf');
+    font-family: 'WebFont';
+    src: url('Comfortaa-Light.ttf');
 }
 body{
-	font-family: 'WebFont';
-	background-image: url("images/concrete_wall_bg.png");
-	color: #415e8a;
+    font-family: 'WebFont';
+    color: #415e8a;
+    font-size: 1.2em;
 }
 .container{
-	margin: 0 auto;
-	width: 800px;
+    margin: 0 auto;
+    width: 800px;
 }
 .clear{
-	clear: both; zoom: 1;
+    clear: both; zoom: 1;
 }
 .products{
-	width: 800px;
-	margin-bottom: 30px;
+    width: 800px;
+    margin-bottom: 30px;
 }
 .product-list{
-	list-style: none;
-	text-align: center;
+    list-style: none;
+    text-align: center;
 }
 .product{
-	float: left;
-	margin: 25px 0 0 0;
-	position: relative;
-	transition: all 0.2s ease-out;
-	-webkit-transition: all 0.2s ease-out;
-	width: 210px;
+    float: left;
+    margin: 25px 0 0 0;
+    position: relative;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    width: 210px;
 }
 .product-name{
-	font-family: 'WebFont';
-	line-height: 50px;
-	font-size: 1em;
-	color: #415e8a;
+    font-family: 'WebFont';
+    line-height: 50px;
+    font-size: 1.5em;
 }
 .product-image{
-	background-color: #FFFFFF;
     border: 0;
     width: 205px;
     height: 205px;
+    background-color: #FFFFFF;
 }
 .product-price{
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #415e8a;
-}
-.product-price-sale{
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #415e8a;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 .header{
-	font-family: 'WebFont';
-	color: #415e8a;
-	text-align: center;
-	border-bottom: 3px solid #415e8a;
+    font-family: 'WebFont';
+    text-align: center;
+    border-bottom: 3px solid #415e8a;
 }
 .title{
-	color: #415e8a;
-	text-transform: uppercase;
-	margin: 40px auto;
+    font-family: 'WebFont';
+    text-transform: uppercase;
+    margin: 40px auto;
+    font-size: 3em;
 }
 .footer{
-	font-family: WebFont;
-	color: #415e8a;
-	margin-top: 50px;
-	text-align: center;
-	border-top: 1px solid #415e8a;
+    font-family: 'WebFont';
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-top: 1px solid #415e8a;
+}
+h5{
+    font-family: 'WebFont';
+    font-size: 1.2em;
 }
 .copyright{
-	font-family: WebFont;
-	color: #415e8a;
-	position: fixed;
-	bottom: 0px;
-	border-top: 1px solid #415e8a;
-	width: 100%;
-	text-align: center;
-	font-size: 0.9em;
+    font-family: 'WebFont';
+    bottom: 0px;
+    border-top: 1px solid #415e8a;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+a, a:hover{
+    color: #415e8a;
+    text-decoration: none;
 }
 
 
 
+
+.product-detail{
+    margin-top: 20px;
+}
+.product-detail-name{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    word-spacing: .2em;
+    font-weight: 700;
+}
 .product-image-detailed, .product-overview{
     vertical-align: top;
+    margin-top: 10px;
     float: left;
 }
 .product-image-detailed{ width: 480px; }
 .product-image-detailed img.main{
     width: 440px;
-    border: 7px solid #fff;
-    border-radius: 3px;
     box-shadow: 0 0 5px #aaa;
     margin-bottom: 10px;
 }
 .product-image-detailed img.thumb{
     height: 60px;
     margin: 0 5px;
-    border-radius: 3px;
 }
 .product-overview{
     width: 240px;
     padding: 20px;
-    background: #fff;
     border-radius: 3px;
     min-height: 300px;
-    font-size: 0.9em;
     float: right;
-}
-.product-details{
-    margin-top: 20px;
 }
 .product-seller{
     text-align: center;
@@ -123,18 +125,9 @@ body{
     box-shadow: 0 0 20px #bbb;
     border: 3px solid #fff;
 }
-
-h5{
-    font-size: 1.4em;
-    margin: 3px 10px;
-    font-style: italic;
-}
-
-.price{
+.product-detail-price{
     font-weight: bold;
     font-size: 1.8em;
     text-align: right;
     text-shadow: 2px 0px 0 #ccc;
 }
-
-

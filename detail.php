@@ -5,10 +5,9 @@
     <img class="thumb" src="images/shagai/zoomed blue shagai.jpg"/>
     <img class="thumb" src="images/shagai/zoomed red shagai.jpg"/>
 </div>
-<div class="product-overview">
-    <h5>Алаг мэлхийн шагай</h5>
-    <div class="price">20,000₮</div><br/>
-
+<div>
+    <h5 class="product-detail-name">Алаг мэлхийн шагай</h5>
+    <div class="product-price">20,000₮</div><br/>
     <b>Өнгө алаглуулан будсан</b> алаг мэлхийн шагайнд дараах зүйлс багтсан:
     <ul>
         <li>Улаан шагай 40 ширхэг</li>

@@ -2,21 +2,16 @@
 
 <div class="products">
     <ul class="product-list">
+<?php $products = new SimpleXMLElement(file_get_contents("products.xml"));?>
+<?php foreach( $products as $product ) { ?>
         <li class="product">
-            <img class="product-image" src="static/images/burhuul.png">
-            <span class="product-name">Гэрлийн бүрхүүл</span><br />
-            <span class="product-price">15000₮</span>
+            <a href="detail.php?id=<?=$product->id ?>">
+                <img class="product-image" src="<?=$product->image ?>">
+                <span class="product-name"><?=$product->name ?></span><br />
+                <span class="product-price"><?=$product->price ?></span>
+            </a>
         </li>
-        <li class="product">
-            <img class="product-image" src="static/images/2_shagai.jpg">
-            <span class="product-name">Алаг мэлхийний шагай</span><br />
-            <span class="product-price">20000₮</span>
-        </li>
-        <li class="product">
-            <img class="product-image" src="">
-            <span class="product-name">Ажлийн ширээ</span><br />
-            <span class="product-price">50000₮</span>
-        </li>
+<?php } ?>
     </ul>
 </div>
 
